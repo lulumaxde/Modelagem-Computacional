@@ -41,7 +41,7 @@ pré-definida. Assim como a taxa de crescimento do produtor, todas as outras tax
 e seu comportamento analisado. 
 
 
-PROJETO 03 =>Sincronização de Neuônios
+PROJETO 03 =>Sincronização de Neurônios
 
 Introdução  
 A Neurociência é a área que se ocupa em estudar o sistema nervoso, visando desvendar seu funcionamento, estrutura, desenvolvimento 
