@@ -33,7 +33,7 @@ int main (){
 
     if(op == 1){
 	for(i = 1; i < Simulacoes; i++){
-		Grama[i] = Grama[i-1]*((103.93*(1-((Grama[i-1])/1300)) - 0.02*Impala[i-1] - 0.035*Gnus[i-1])*e) + Grama[i-1]; // Vegetação
+		Grama[i] = Grama[i-1]*((103.93*(1-((Grama[i-1])/1300)) - 0.02*Impala[i-1] - 0.035*Gnus[i-1])*e) + Grama[i-1]; // VegetaÃ§Ã£o
         Impala[i] = Impala[i-1]*(0.025*Grama[i-1] - 0.005*Hiena[i-1] - 0.008*Leao[i-1] - 3.2)*e + Impala[i-1]; // Herbibovo 1
 		Gnus[i] = Gnus[i-1]*(0.02*Grama[i-1] - 0.009*Hiena[i-1] - 0.005*Leao[i-1] - 2.9)*e + Gnus[i-1]; // Herbibovo 2
 		Hiena[i] = Hiena[i-1]*(0.02*Impala[i-1] + 0.025*Gnus[i-1] - 22.2)*e + Hiena[i-1]; // Carnivoro 1
@@ -46,7 +46,7 @@ int main (){
 
     if (op == 2){
         for(i = 1; i < Simulacoes; i++){
-		Grama[i] = Grama[i-1]*((103.93*(1-((Grama[i-1])/1300)) - 0.02*Impala[i-1] - 0.035*Gnus[i-1])*e) + Grama[i-1]; // Vegetação
+		Grama[i] = Grama[i-1]*((103.93*(1-((Grama[i-1])/1300)) - 0.02*Impala[i-1] - 0.035*Gnus[i-1])*e) + Grama[i-1]; // VegetaÃ§Ã£o
 		 if(i == 150){
          Grama[i] *= 0.1;
          }         // Queimada repentina
@@ -59,7 +59,7 @@ int main (){
 
     if (op == 3){
             for(i = 1; i < Simulacoes; i++){
-		Grama[i] = Grama[i-1]*((103.93*(1-((Grama[i-1])/1300)) - 0.02*Impala[i-1] - 0.035*Gnus[i-1])*e) + Grama[i-1]; // Vegetação
+		Grama[i] = Grama[i-1]*((103.93*(1-((Grama[i-1])/1300)) - 0.02*Impala[i-1] - 0.035*Gnus[i-1])*e) + Grama[i-1]; // VegetaÃ§Ã£o
 
 		Impala[i] = Impala[i-1]*(0.025*Grama[i-1] - 0.005*Hiena[i-1] - 0.008*Leao[i-1] - 3.2)*e + Impala[i-1]; // Herbibovo 1
 		Gnus[i] = Gnus[i-1]*(0.02*Grama[i-1] - 0.009*Hiena[i-1] - 0.005*Leao[i-1] - 2.9)*e + Gnus[i-1]; // Herbibovo 2
@@ -78,7 +78,7 @@ int main (){
     if (op == 4){
 
                for(i = 1; i < Simulacoes; i++){
-		Grama[i] = Grama[i-1]*((103.93*(1-((Grama[i-1])/1300)) - 0.02*Impala[i-1] - 0.035*Gnus[i-1])*e) + Grama[i-1]; // Vegetação
+		Grama[i] = Grama[i-1]*((103.93*(1-((Grama[i-1])/1300)) - 0.02*Impala[i-1] - 0.035*Gnus[i-1])*e) + Grama[i-1]; // VegetaÃ§Ã£o
 
 		Impala[i] = Impala[i-1]*(0.025*Grama[i-1] - 0.005*Hiena[i-1] - 0.008*Leao[i-1] - 3.2)*e + Impala[i-1]; // Herbibovo 1
 		Gnus[i] = Gnus[i-1]*(0.02*Grama[i-1] - 0.009*Hiena[i-1] - 0.005*Leao[i-1] - 2.9)*e + Gnus[i-1]; // Herbibovo 2
@@ -88,7 +88,7 @@ int main (){
             if(i == 100){
             Impala[i] *= 0;
 
-            }  //Extinção de Impalas
+            }  //ExtinÃ§Ã£o de Impalas
         }
     }
 
