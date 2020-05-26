@@ -12,14 +12,14 @@ int main(){
 
 
 
-	printf("\n\n-----LEITURA DE DADOS SIMLUCAÇAO %d-----\n\n",j);
+	printf("\n\n-----LEITURA DE DADOS SIMLUCAÃ‡AO %d-----\n\n",j);
 
 	variacao = 0.01;
 	printf("Digite valor em 2d para posicao inicial: ");			scanf("%f %f",&poin[1],&poin[2]);
 	printf("Digite valor para massa do corpo: ");				scanf("%f",&m );
 	printf("Digite valor para constante de atrito: ");			scanf("%f",&k );
 	printf("Digite valor para velocidade inicial de lancamento: ");		scanf("%f",&vin);
-	printf("Digite valor para ângulo de lançamento: ");			scanf("%f",&teta);
+	printf("Digite valor para Ã¢ngulo de lanÃ§amento: ");			scanf("%f",&teta);
 
 
 	for(i=0;i<=100;i++){
@@ -49,7 +49,7 @@ for( i = 1 ; i<=1000 ; i++){
         vx[i] = vx[0];
 		xx[i] = xx[i-1]+vx[i-1]*variacao;
 
-	printf("\n\n-----IMPRESSAO DE DADOS SIMLUCAÇAO -----\n\n");
+	printf("\n\n-----IMPRESSAO DE DADOS SIMLUCAÃ‡AO -----\n\n");
     for(i = 0; i<=1000 ; i++){
     fprintf(arq1,"%d %0.2f %0.2f %0.2f %0.2f %0.2f\n",i,vx[i],xx[i],vy[i],xy[i],e[i]);
 }
